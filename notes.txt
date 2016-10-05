@@ -1,0 +1,7 @@
+for use when php7 is hosted on a windows apache2.4 environment, trying access SQL Server 2012 and above through 64-bit ODBC
+
+1. original database is not included, but the code is confirmed to be in working order.  This is only meant to be a template if in need of this in the future
+2. php extensions may only work when the php.ini's extension directory is specified in absolute path, e.g. 'C://PHP//ext'
+3. notice if the data contains BIG5 characters, they must be converted...
+
+information from the PHP documentation is not really clear, so please see the pdf's included for more information
